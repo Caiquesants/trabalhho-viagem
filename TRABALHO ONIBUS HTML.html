@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="form.css">
+    <script src="viagem.js"></script>
+</head>
+
+<body>
+    <h1>Passagens de Onibus</h1>
+    <form id="meuformulario">
+
+    <input type="text" id="nome" placeholder="Digite seu nome completo" required>
+    <input type="date" id="data" placeholder="Digite a data da viagem" required>
+    <input type="time" id="horas" required>
+    <select id="origem">
+        <option value="">Selcione a Cidade de Origem</option>
+        <option value="Belo Horizonte-MG">Belo Horizonte-MG</option>
+        <option value="Rio de Janeiro-RJ">Rio de Janeiro-RJ</option>
+        <option value="Fortaleza-CE">Fortaleza-CE</option>
+        <option value="Recife-PE">Recife-PE</option>
+        <option value="Salvador-BA">Salvador-BA</option>
+
+    </select>
+    <select id="destino">
+        <option value="">Selcione a Cidade de Destino</option>
+        <option value="Belo Horizonte-MG">Belo Horizonte-MG</option>
+        <option value="Rio de Janeiro-RJ">Rio de Janeiro-RJ</option>
+        <option value="Fortaleza-CE">Fortaleza-CE</option>
+        <option value="Recife-PE">Recife-PE</option>
+        <option value="Salvador-BA">Salvador-BA</option>
+
+    </select>
+    <input id="botao" type="submit" >
+    <div id="mensagem"></div>
+    </form>
+</body>
+</html>
